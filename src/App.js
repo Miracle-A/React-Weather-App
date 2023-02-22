@@ -57,13 +57,6 @@ const AppLabel = styled.span`
   font-size: 18px;
   font-weight: bold;
 `;
-const CloseButton = styled.span`
-  padding: 2px 3px;
-  background-color: black;
-  border-radius: 75px;
-  color: white;
-  position: absolute;
-`;
 
 function App() {
   const [city, updateCity] = useState();
